@@ -33,8 +33,9 @@
     <!-- For all other devices -->
     <!-- Size should be 32 x 32 pixels -->
     <%= favicon_link_tag 'favicon.ico', :rel => 'shortcut icon' %>
-
+    <%= javascript_include_tag 'http://bdimg.share.baidu.com/static/api/js/share.js' %>
     <%= javascript_include_tag "application" %>
+
   </head>
   <body>
           <%= bootstrap_flash %>
